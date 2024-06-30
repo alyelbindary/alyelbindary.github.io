@@ -7,6 +7,13 @@
 # server process.
 
 # Basic Site Settings
+
+# remote theme
+remote_theme: jekyll/minima
+
+minima:
+  skin: dark
+
 # theme                    : minimal-mistakes-jekyll
 minimal_mistakes_skin    : "dark" # "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 locale                   : "en-US"
