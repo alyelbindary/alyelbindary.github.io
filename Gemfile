@@ -16,8 +16,10 @@ gem "github-pages", group: :jekyll_plugins
 
 # gem "jekyll"
 
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+# gem "wdm", "~> 0.1.0" if Gem.win_platform?
 # gem 'wdm', '~> 0.1.0', platforms: [:mswin, :mingw, :x64_mingw]
+
+gem "jekyll-remote-theme"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do

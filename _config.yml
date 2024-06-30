@@ -7,7 +7,7 @@
 # server process.
 
 # Basic Site Settings
-theme                    : minimal-mistakes-jekyll
+# theme                    : minimal-mistakes-jekyll
 minimal_mistakes_skin    : "dark" # "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 locale                   : "en-US"
 title                    : "Aly Elbindary's Personal Blog"
@@ -293,6 +293,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-remote-theme
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
