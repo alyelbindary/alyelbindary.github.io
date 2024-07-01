@@ -17,8 +17,8 @@
 
 
 # theme                    : minimal-mistakes-jekyll
-# theme: jekyll-theme-minimal
-remote_theme                    : minimal-mistakes-jekyll
+theme: jekyll-theme-minimal
+# remote_theme                    : minimal-mistakes-jekyll
 minimal_mistakes_skin    : "dark" # "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 locale                   : "en-US"
 title                    : "Aly Elbindary's Personal Blog"
@@ -36,7 +36,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Aly Elbindary"
-  pronouns         : "he/himm"  
+  pronouns         : "he/him"  
   bio              : "Short biography for the left-hand sidebar"
   location         : "Lausanne, Switzerland"
   employer         : "EPFL"
