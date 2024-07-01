@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Curriculum Vitae [PDF](http://academicpages.github.io/files/Aly_CV.pdf)
+Curriculum Vitae [PDF](http://alyelbindary.github.io/files/Aly_CV.pdf)
 
 Education
 ======
