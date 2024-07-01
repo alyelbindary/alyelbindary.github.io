@@ -9,15 +9,15 @@
 # Basic Site Settings
 
 # remote theme
-# remote_theme: jekyll/minima
+remote_theme: jekyll/minima
 
 # minima:
 #   skin: dark
 
 
-remote_theme                    : minimal-mistakes-jekyll
-minimal_mistakes_skin    : "dark" # "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# remote_theme                    : minimal-mistakes-jekyll
 # theme: jekyll-theme-minimal
+minimal_mistakes_skin    : "dark" # "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 locale                   : "en-US"
 title                    : "Aly Elbindary's Personal Blog"
 title_separator          : "-"
