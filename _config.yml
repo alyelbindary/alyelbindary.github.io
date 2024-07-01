@@ -20,7 +20,7 @@
 # theme: jekyll-theme-minimal
 # remote_theme             : "alyelbindary/alyelbindary.github.io"
 # theme : minima
-# minimal_mistakes_skin    : "dark" # "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 locale                   : "en-US"
 title                    : "Aly Elbindary's Personal Blog"
 title_separator          : "-"
