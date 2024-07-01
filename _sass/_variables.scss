@@ -42,6 +42,14 @@ $type-size-6                : 0.75em;   // ~12px
 $type-size-7                : 0.6875em; // ~11px
 $type-size-8                : 0.625em;  // ~10px
 
+/* masthead properties */
+$masthead-height            : 70px;
+
+/* Sidebar properties */
+$sidebar-screen-min-width   : 1024px;
+$sidebar-link-max-width     : 250px;
+
+
 
 /*
    Colors
@@ -68,6 +76,7 @@ $info-color                 : #52adc8;
 
 /* brands */
 $behance-color              : #1769FF;
+$bluesky-color              : #1184fe;
 $dribbble-color             : #ea4c89;
 $facebook-color             : #3b5998;
 $flickr-color               : #ff0084;
@@ -75,8 +84,11 @@ $foursquare-color           : #0072b1;
 $github-color               : #171516;
 $google-plus-color          : #dd4b39;
 $instagram-color            : #517fa4;
+$kaggle-color               : #20c0ff;
 $lastfm-color               : #d51007;
 $linkedin-color             : #007bb6;
+$mastodon-color             : #6364ff;
+$orcid-color                : #a6ce39;
 $pinterest-color            : #cb2027;
 $rss-color                  : #fa9b39;
 $soundcloud-color           : #ff3300;
@@ -151,3 +163,34 @@ $box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
 $navicon-width              : 28px;
 $navicon-height             : 4px;
 $global-transition          : all 0.2s ease-in-out;
+
+/* ==========================================================================
+   Dark skin
+   ========================================================================== */
+
+/* Colors */
+// $background-color: #252a34 !default;
+// $text-color: #eaeaea !default;
+// $primary-color: #00adb5 !default;
+// $border-color: mix(#fff, $background-color, 20%) !default;
+// $code-background-color: mix(#000, $background-color, 15%) !default;
+// $code-background-color-dark: mix(#000, $background-color, 20%) !default;
+// $form-background-color: mix(#000, $background-color, 15%) !default;
+// $footer-background-color: mix(#000, $background-color, 30%) !default;
+// $link-color: mix($primary-color, $text-color, 40%) !default;
+// $link-color-hover: mix(#fff, $link-color, 25%) !default;
+// $link-color-visited: mix(#000, $link-color, 25%) !default;
+// $masthead-link-color: $text-color !default;
+// $masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
+// $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
+
+// .author__urls.social-icons i,
+// .author__urls.social-icons .svg-inline--fa,
+// .page__footer-follow .social-icons i,
+// .page__footer-follow .social-icons .svg-inline--fa  {
+//   color: inherit;
+// }
+
+// .ais-search-box .ais-search-box--input {
+//   background-color: $form-background-color;
+// }
