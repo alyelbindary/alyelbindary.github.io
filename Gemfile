@@ -12,11 +12,12 @@ source "https://rubygems.org"
 # Happy Jekylling!
 
 gem "github-pages", group: :jekyll_plugins
+gem "jekyll", "~> 3.7"
 
 # If you want to use Jekyll native, uncomment the line below.
 # To upgrade, run `bundle update`.
 
-gem "jekyll"
+# gem "jekyll"
 gem 'public_suffix', '5.1.1'
 gem 'minima'
 gem "minimal-mistakes-jekyll"
