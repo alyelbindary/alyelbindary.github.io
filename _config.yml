@@ -15,7 +15,7 @@
 #   skin: dark
 
 
-# theme                    : minimal-mistakes-jekyll
+theme                    : minimal-mistakes-jekyll
 minimal_mistakes_skin    : "dark" # "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 theme: jekyll-theme-minimal
 locale                   : "en-US"
@@ -34,10 +34,10 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Aly Elbindary"
-  pronouns         : # example: "he/himm"  
+  pronouns         : "he/himm"  
   bio              : "Short biography for the left-hand sidebar"
   location         : "Lausanne, Switzerland"
-  employer         : "Ecole Polytechnique Fédérale de Lausanne "
+  employer         : "EPFL"
   uri              : # URL
   email            : "alyelbindary@gmail.com" 
 
