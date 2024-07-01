@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+Curriculum Vitae [PDF](files/Aly_CV)
+
 Education
 ======
 * MSc in Robotics with a Minor in Data Science, EPFL 2022-current
