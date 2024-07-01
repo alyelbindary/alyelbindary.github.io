@@ -16,8 +16,8 @@
 
 
 theme                    : minimal-mistakes-jekyll
-minimal_mistakes_skin    : "dark" # "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-theme: jekyll-theme-minimal
+# minimal_mistakes_skin    : "dark" # "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# theme: jekyll-theme-minimal
 locale                   : "en-US"
 title                    : "Aly Elbindary's Personal Blog"
 title_separator          : "-"
