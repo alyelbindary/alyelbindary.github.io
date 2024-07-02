@@ -45,7 +45,7 @@ Projects
 * Tweet Sentiment Classification
   * Create a **machine learning model** that can perform binary classification (positive/negative sentiment) on a given dataset of tweets.
   * Achieved the **Highest Accuracy Score (92.1%)**  in the Class
-  * Key concepts : Tokenizing/encoding a text dataset (TF-IDF, GloVe), use of preexisting state-of-the-art transformers (`BERTWEET`), ethics of machine-learning.
+  * Key concepts : Tokenizing/encoding a text dataset (TF-IDF, GloVe), use of preexisting state-of-the-art transformers : `BERTWEET`, ethics of machine-learning.
   * Our model's accuracy achieved 1st place in the class ranking
    
 * 2D Animal Pose Detection for the Autopilot of an Autonomous Vehicle
