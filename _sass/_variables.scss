@@ -93,27 +93,27 @@ $base0d: #3777e6 !default;
 $base0e: #ad00a1 !default;
 $base0f: #cc6633 !default;
 
-.author__urls.social-icons i,
-.author__urls.social-icons .svg-inline--fa,
-.page__footer-follow .social-icons i,
-.page__footer-follow .social-icons .svg-inline--fa  {
-  color: inherit;
-}
+// .author__urls.social-icons i,
+// .author__urls.social-icons .svg-inline--fa,
+// .page__footer-follow .social-icons i,
+// .page__footer-follow .social-icons .svg-inline--fa  {
+//   color: inherit;
+// }
 
-/* next/previous buttons */
-.pagination--pager {
-  color: $text-color;
-  background-color: $primary-color;
-  border-color: transparent;
+// /* next/previous buttons */
+// .pagination--pager {
+//   color: $text-color;
+//   background-color: $primary-color;
+//   border-color: transparent;
 
-  &:visited {
-    color: $text-color;
-  }
-}
+//   &:visited {
+//     color: $text-color;
+//   }
+// }
 
-.ais-search-box .ais-search-box--input {
-  background-color: $form-background-color;
-}
+// .ais-search-box .ais-search-box--input {
+//   background-color: $form-background-color;
+// }
 
 // $primary-color              : #f21368;
 $success-color              : #62c462;
