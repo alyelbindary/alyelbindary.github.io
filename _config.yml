@@ -40,7 +40,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Aly Elbindary"
-  pronouns         : "he/him"  
+  pronouns         : # "he/him"  
   bio              : "Robotics Engineer"
   location         : "Lausanne, Switzerland"
   employer         : "EPFL"
