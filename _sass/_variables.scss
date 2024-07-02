@@ -65,7 +65,8 @@
    $background-color           : $dark-gray;
    $code-background-color      : $dark-gray;
    $code-background-color-dark : $light-gray;
-   $footer-background-color    : $light-gray;
+   $footer-background-color: #000; /* black background */
+   $footer-text-color: #fff; /* white text */
    $text-color                 : #fff;
    $border-color               : $lighter-gray;
    
