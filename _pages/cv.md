@@ -29,12 +29,12 @@ Projects
 ======
 
 * Automatic Segmentation of Light-Sheet Zebrafish Scans
-  * Semester Project in MICROBS lab at EPFL : Use machine learning segmentation techniques in order to automatically segment light-sheet scans.
+  * Semester Project in [MICROBS](https://www.epfl.ch/labs/microbs/) lab at EPFL : Use machine learning segmentation techniques in order to automatically segment light-sheet scans.
   * Key Concepts : Computer Vision, Usage and fine-tuning of preexisting state-of-the-art models (SAM), coding with **python and pytorch**, focal loss, cross-entropy loss, intersection over union (IoU), multi-class segmentation.
 
 * Create an AI ChatBot Specialized to course content at EPFL
   * Use Modern Natural Language Processing techniques in order to develop a specialized tutor-ChatBot through python, pytorch and state-of-the-art models such as `T5, LLaMA`.
-  * Key Concepts : NLP, RLHF, DPO training, dataset collection \& labeling, preference dataset, improvement methods (RAG \& Quantization).
+  * Key Concepts : NLP, RLHF, DPO training, dataset collection & labeling, preference dataset, improvement methods (RAG \& Quantization).
 
 
 * Creating a Website to tell a Datastory
@@ -44,8 +44,8 @@ Projects
 
 * Tweet Sentiment Classification
   * Create a **machine learning model** that can perform binary classification (positive/negative sentiment) on a given dataset of tweets.
-  * Achieved the **Highest Accuracy Score (92.1\%)**  in the Class
-  * Key concepts : Tokenizing/encoding a text dataset (TF-IDF, GloVe), use of preexisting state-of-the-art transformers (BERTWEET), ethics of machine-learning.
+  * Achieved the **Highest Accuracy Score (92.1%)**  in the Class
+  * Key concepts : Tokenizing/encoding a text dataset (TF-IDF, GloVe), use of preexisting state-of-the-art transformers (`BERTWEET`), ethics of machine-learning.
   * Our model's accuracy achieved 1st place in the class ranking
    
 * 2D Animal Pose Detection for the Autopilot of an Autonomous Vehicle
@@ -53,13 +53,13 @@ Projects
   * Contribution : Improving a preexisting model (OpenPifPaf) through Semantic Data Augmentation (SDA).
   * Key concepts : ML, AI, perception, prediction, planning, neural networks (NN), convolutional NNs, recurrent NNs, regularisation techniques, supervised learning.
 
-* System Identification
-  * Identify a dynamic system, construct and analyze a discrete-time model using experimental data from a gyroscope.
+* System Identification & Control Design of 2DOF Hover (Semester Project in [DDMaC Lab](https://www.epfl.ch/labs/ddmac/))
+  * Identify a dynamic system, construct and analyze a discrete-time model for a 2DOF Hover (Quanser Aero 2)
   * Programming done using MatLab.
   * Key concepts : parametric (deconvolution method, Fourier analysis) and nonparametric methods (FIR models, Box Jenkins, prediction error).
 
-* System Identification & Control Design of 2DOF Hover (Semester Project in DDMaC Lab)
-  * Identify a dynamic system, construct and analyze a discrete-time model for a 2DOF Hover (Quanser Aero 2)
+* System Identification
+  * Identify a dynamic system, construct and analyze a discrete-time model using experimental data from a gyroscope.
   * Programming done using MatLab.
   * Key concepts : parametric (deconvolution method, Fourier analysis) and nonparametric methods (FIR models, Box Jenkins, prediction error).
 
