@@ -32,8 +32,8 @@
 
     &:hover {
       opacity: 1;
-      transition: opacity 0.2s ease-in-out; /* Transition for opacity */
-      filter: brightness(1.2); // Increase brightness on hover
+      // transition: opacity 0.2s ease-in-out; /* Transition for opacity */
+      // filter: brightness(1.2); // Increase brightness on hover
     }
   }
 
@@ -261,8 +261,8 @@
 
     &:hover {
       text-decoration: underline;
-      transition: opacity 0.2s ease-in-out; /* Transition for opacity */
-      filter: brightness(1.2); // Increase brightness on hover
+      // transition: opacity 0.2s ease-in-out; /* Transition for opacity */
+      // filter: brightness(1.2); // Increase brightness on hover
     }
   }
 }
