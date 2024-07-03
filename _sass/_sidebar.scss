@@ -13,8 +13,8 @@
   @include clearfix();
   margin-bottom: 1em;
 
-  // // Add transition for smooth glowing effect
-  // transition: box-shadow 0.3s ease-in-out;
+  // Add transition for smooth glowing effect
+  transition: box-shadow 0.3s ease-in-out;
 
   @media screen and (min-width: $sidebar-screen-min-width) {
     height: 100vh;
@@ -26,13 +26,14 @@
   @include breakpoint($large) {
     @include span(2 of 12);
     opacity: 1;
+    transition: opacity 0.2s ease-in-out; /* Transition for opacity */
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
 
     &:hover {
       opacity: 1;
-      // transition: opacity 1.2s ease-in-out; /* Transition for opacity */
-      // filter: brightness(1.2); // Increase brightness on hover
+      transition: opacity 0.2s ease-in-out; /* Transition for opacity */
+      filter: brightness(1.2); // Increase brightness on hover
     }
   }
 
@@ -118,11 +119,6 @@
     padding-left: 0;
     padding-right: 0;
   }
-  &:hover {
-    opacity: 1;
-    transition: opacity 1.2s ease-in-out; /* Transition for opacity */
-    filter: brightness(1.2); // Increase brightness on hover
-  }
 }
 
 .author__name {
@@ -136,11 +132,6 @@
 .sidebar .author__name {
   font-family: $sans-serif;
   font-size: $type-size-5;
-}
-&:hover {
-  opacity: 1;
-  transition: opacity 1.2s ease-in-out; /* Transition for opacity */
-  filter: brightness(1.2); // Increase brightness on hover
 }
 
 .sidebar .author__desktop {
@@ -165,11 +156,6 @@
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 20px;
-  }
-  &:hover {
-    opacity: 1;
-    transition: opacity 1.2s ease-in-out; /* Transition for opacity */
-    filter: brightness(1.2); // Increase brightness on hover
   }
 }
 
@@ -272,8 +258,11 @@
     color: inherit;
     font-size: $type-size-5;
     text-decoration: none;
-  }
-  &:hover {
-    text-decoration: underline;
+
+    &:hover {
+      text-decoration: underline;
+      transition: opacity 0.2s ease-in-out; /* Transition for opacity */
+      filter: brightness(1.2); // Increase brightness on hover
+    }
   }
 }
