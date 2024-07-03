@@ -108,7 +108,7 @@ $lighter-gray               : mix(#fff, $gray, 90%);
 
     @include breakpoint($large) {
       padding: 5px;
-      border: 1px $light-gray;
+      border: 1px $border-color;
     }
   }
 }
