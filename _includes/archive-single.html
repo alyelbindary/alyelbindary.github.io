@@ -54,13 +54,13 @@
     
     <!-- Before post.citation, u can put "Recommended Citation" -->
     {% if post.citation and post.paperurl and post.slidesurl %}
-      <p> {{ post.citation }}<br /><a href="{{ post.paperurl }}">View Paper</a> | <a href="{{ post.slidesurl }}">View Slides</a></p>
+      <p><a href="{{ post.paperurl }}">View Paper</a> | <a href="{{ post.slidesurl }}">View Slides</a></p>
     {% elsif post.citation and post.paperurl %}
-      <p> {{ post.citation }}<br /><a href="{{ post.paperurl }}">View Paper</a></p>
+      <p><a href="{{ post.paperurl }}">View Paper</a></p>
     {% elsif post.citation and post.slidesurl %}
-      <p> {{ post.citation }}<br /><a href="{{ post.slidesurl }}">View Slides</a></p>
+      <p><a href="{{ post.slidesurl }}">View Slides</a></p>
     {% elsif post.citation %}
-      <p> {{ post.citation }}</p>
+      </p>
     {% elsif post.paperurl %}
       <p><a href="{{ post.paperurl }}">View Paper</a></p>
     {% elsif post.slidesurl %}
