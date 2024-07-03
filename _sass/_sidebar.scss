@@ -309,11 +309,5 @@
     color: inherit;
     font-size: $type-size-5;
     text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-      transition: opacity 1.2s ease-in-out; /* Transition for opacity */
-      filter: brightness(1.2); // Increase brightness on hover
-    }
   }
 }
