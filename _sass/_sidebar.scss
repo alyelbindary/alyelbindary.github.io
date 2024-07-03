@@ -165,11 +165,6 @@
   @media screen and (min-width: 1024px) {
     display: block;
   }
-  &:hover {
-    opacity: 1;
-    transition: opacity 1.2s ease-in-out; /* Transition for opacity */
-    filter: brightness(1.2); // Increase brightness on hover
-  }
 }
 
 .author__pronouns {
