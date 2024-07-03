@@ -144,11 +144,6 @@
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  &:hover {
-    opacity: 1;
-    transition: opacity 1.2s ease-in-out; /* Transition for opacity */
-    filter: brightness(1.2); // Increase brightness on hover
-  }
 }
 .sidebar .author__name {
   font-family: $sans-serif;
