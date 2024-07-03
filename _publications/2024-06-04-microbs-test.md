@@ -1,20 +1,13 @@
 ---
-title: "Automatic Image Segmentation of Light-Sheet Zebrafish Scans"
+title: "Paper Title Number 3"
 collection: publications
-permalink: /publication/2024-06-04-microbs
-excerpt: 'This paper is about using machine learning models in order to automatically segemnt light-sheet zebrfish scans.'
-date: 2024-06-04
-# venue: 'GitHub Journal of Bugs'
-slidesurl: 'http://alyelbindary.github.io/files/Aly_Final_Presentation.pdf'
-paperurl: 'http://alyelbindary.github.io/files/Semester_Project_II_Report.pdf'
-# citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+permalink: /publication/2015-10-01-paper-title-number-3
+excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
+date: 2015-10-01
+venue: 'Journal 1'
+slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
+paperurl: 'http://academicpages.github.io/files/paper3.pdf'
+citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
 ---
 
-Background & Objectives
-===
-
-In this project, we have at our disposal numerous amounts of light-sheet zebrafish scans. Our aim is to segment these scans in a particular manner. The aim would be to highlight specific features of the zebrafish  through these segmentations (somites \& notochord, which we will look at later), and then potentially create 3D renderings of certain parts of the zebrafish embryo. The difficulty of this task is that the manual segmentation of these scans is often a extremely bothersome task, taking a significant amount of time per zebrafish scan.
-
-Thus, the aim would be to automate this process, through the fine-tuning and usage of already existing state-of-the art segmentation models. Before diving into the machine learning (ML) models, we will first look at the process of manually segmenting these scans, in order to better understand the data that we have at our disposal, the expected segmentations as well as the difficulty of manually labeling the data for future ML tasks.
-
-The main focus of this project will be to develop this automated process through one particular transformer model : Segment Anything Model (developed by Meta). We will be looking at how the model itself is structured, its benefits when it comes to our specific use-case as well as its limitations.
+The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
