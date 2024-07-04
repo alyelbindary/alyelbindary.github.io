@@ -108,7 +108,7 @@
 
     @include breakpoint($large) {
       padding: 5px;
-      border: 1px $border-color;
+      border: 1px black;
     }
   }
 }
