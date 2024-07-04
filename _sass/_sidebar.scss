@@ -33,7 +33,7 @@
   @include breakpoint($large) {
     @include span(2 of 12);
     opacity: 1;
-    // transition: opacity 0.2s ease-in-out; /* Transition for opacity */
+    transition: opacity 0.2s ease-in-out; /* Transition for opacity */
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
 
@@ -108,7 +108,7 @@
 
     @include breakpoint($large) {
       padding: 5px;
-      border: 1px $border-color !important;
+      border: 1px $border-color;
     }
   }
 }
