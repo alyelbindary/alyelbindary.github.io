@@ -6,12 +6,12 @@
    Default
    ========================================================================== */
 
-$gray                       :  #4d5563;
-// $gray                       : #5a6065;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
-$lighter-gray               : mix(#fff, $gray, 90%);
+// $gray                       :  #4d5563;
+// // $gray                       : #5a6065;
+// $dark-gray                  : mix(#000, $gray, 40%);
+// $darker-gray                : mix(#000, $gray, 60%);
+// $light-gray                 : mix(#fff, $gray, 50%);
+// $lighter-gray               : mix(#fff, $gray, 90%);
 
 .sidebar {
   -webkit-transform: translate3d(0, 0 , 0);
@@ -203,7 +203,7 @@ $lighter-gray               : mix(#fff, $gray, 90%);
   list-style-type: none;
   border: 1px solid $border-color;
   border-radius: $border-radius;
-  background: $dark-gray;
+  background: #fff;
   z-index: -1;
   box-shadow: 0 0 10px rgba(#000, 0.25);
   cursor: default;
