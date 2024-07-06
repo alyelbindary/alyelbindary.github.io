@@ -101,7 +101,7 @@ $lighter-gray               : mix(#fff, $gray, 90%);
     display: block;
     width: auto;
     height: auto;
-    border-color : $border-color !important
+    border-color : $light-gray !important
   }
 
   img {
@@ -110,7 +110,7 @@ $lighter-gray               : mix(#fff, $gray, 90%);
 
     @include breakpoint($large) {
       padding: 5px;
-      border: 1px solid $border-color !important;
+      border: 1px solid $light-gray !important;
     }
   }
 }
