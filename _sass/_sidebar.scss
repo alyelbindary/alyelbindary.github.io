@@ -93,7 +93,7 @@
   display: table-cell;
   vertical-align: top;
   width: 36px;
-  border : $border-color;
+  border : $border-color !important;
   // set width only, for non-square avatars
   // height: 36px;
 
@@ -101,7 +101,7 @@
     display: block;
     width: auto;
     height: auto;
-    border : $border-color
+    border : $border-color !important
   }
 
   img {
@@ -110,7 +110,7 @@
 
     @include breakpoint($large) {
       padding: 5px;
-      border: 1px $border-color;
+      border: 1px $border-color !important;
     }
   }
 }
