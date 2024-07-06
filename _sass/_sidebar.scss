@@ -93,6 +93,7 @@
   display: table-cell;
   vertical-align: top;
   width: 36px;
+  border : $border-color;
   // set width only, for non-square avatars
   // height: 36px;
 
@@ -100,7 +101,7 @@
     display: block;
     width: auto;
     height: auto;
-    border : $border-color !important
+    border : $border-color
   }
 
   img {
