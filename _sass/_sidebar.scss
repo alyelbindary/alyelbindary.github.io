@@ -93,7 +93,7 @@ $lighter-gray               : mix(#fff, $gray, 90%);
   display: table-cell;
   vertical-align: top;
   width: 36px;
-  border : $light-gray !important;
+  border : $gray !important;
   // set width only, for non-square avatars
   // height: 36px;
 
@@ -101,7 +101,7 @@ $lighter-gray               : mix(#fff, $gray, 90%);
     display: block;
     width: auto;
     height: auto;
-    border-color : $light-gray !important
+    border-color : $gray !important
   }
 
   img {
@@ -110,7 +110,7 @@ $lighter-gray               : mix(#fff, $gray, 90%);
 
     @include breakpoint($large) {
       padding: 5px;
-      border: 1px solid $light-gray !important;
+      border: 1px solid $gray !important;
     }
   }
 }
