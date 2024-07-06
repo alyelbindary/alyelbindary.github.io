@@ -6,12 +6,12 @@
    Default
    ========================================================================== */
 
-// $gray                       :  #4d5563;
-// // $gray                       : #5a6065;
-// $dark-gray                  : mix(#000, $gray, 40%);
-// $darker-gray                : mix(#000, $gray, 60%);
-// $light-gray                 : mix(#fff, $gray, 50%);
-// $lighter-gray               : mix(#fff, $gray, 90%);
+$gray                       :  #4d5563;
+// $gray                       : #5a6065;
+$dark-gray                  : mix(#000, $gray, 40%);
+$darker-gray                : mix(#000, $gray, 60%);
+$light-gray                 : mix(#fff, $gray, 50%);
+$lighter-gray               : mix(#fff, $gray, 90%);
 
 .sidebar {
   -webkit-transform: translate3d(0, 0 , 0);
@@ -93,7 +93,7 @@
   display: table-cell;
   vertical-align: top;
   width: 36px;
-  border : $border-color !important;
+  border : $light-gray !important;
   // set width only, for non-square avatars
   // height: 36px;
 
