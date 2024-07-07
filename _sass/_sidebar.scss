@@ -21,7 +21,7 @@ $lighter-gray               : mix(#fff, $gray, 90%);
   margin-bottom: 1em;
 
   // Add transition for smooth glowing effect
-  transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 1.3s ease-in-out;
 
   @media screen and (min-width: $sidebar-screen-min-width) {
     height: 100vh;
@@ -39,8 +39,8 @@ $lighter-gray               : mix(#fff, $gray, 90%);
 
     &:hover {
       opacity: 1;
-      // transition: opacity 0.2s ease-in-out; /* Transition for opacity */
-      // filter: brightness(1.2); // Increase brightness on hover
+      transition: opacity 1.2s ease-in-out; /* Transition for opacity */
+      filter: brightness(1.2); // Increase brightness on hover
     }
   }
 
