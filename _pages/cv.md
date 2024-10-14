@@ -18,7 +18,7 @@ Education
 
 Work experience
 ======
-* Internship at CHUV (.NeuroRestore Lab)
+* Internship at CHUV - .NeuroRestore Lab  (September 2024 - current)
   * Modeling Cardiovascular Instability in People with Spinal Cord Injury (SCI)
   * Analysis of various clinical data, such as blood pressure, and heart rate to extract important features
   * Usage of different machine learning models in order to predict whether a specific data reading contains signs of orthostatic hypotension or not
