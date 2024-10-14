@@ -18,6 +18,11 @@ Education
 
 Work experience
 ======
+* Internship at CHUV (.Neurorestore Lab)
+  * Modeling Cardiovasculyr Instability in People with Spinal Cord Injury (SCI)
+  * Analysis of various clinical data, such as blood pressure, and heart rate to extract important features
+  *  Usage of different machine learning models in order to predict whether a specific data reading contains signs of orthostatic hypotension or not
+
 * Teaching Assistant (2022-current)
   * Under Prof. Sacha Freidli for Calculus I (For Mechanical Engineering) and Calculus A & B (for MAN) ; 2022 - current
   * Under Prof. Nicolas Boumal for Linear Algebra (for Computer Science) ; 2022-current
@@ -92,7 +97,7 @@ Skills
 * Software
   * AutoCAD (Catia)
   * Logisim & Quartus Prime (Digital Systems Design)
-  * 3D
+  * 3D Slicer
 
 Languages
 ======
