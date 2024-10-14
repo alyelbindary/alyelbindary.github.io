@@ -25,8 +25,8 @@ Work experience
 
 * Teaching Assistant (2022-current)
   * Under Prof. Sacha Freidli for Calculus I (For Mechanical Engineering) and Calculus A & B (for MAN) ; 2022 - current
-  * Under Prof. Nicolas Boumal for Linear Algebra (for Computer Science) ; 2022-current
-  * Under Prof. Peter Wittwer for Calculus I (for Microengineering) ; 2022-current
+  * Under Prof. Nicolas Boumal for Linear Algebra (for Computer Science) ; 2022-2023
+  * Under Prof. Peter Wittwer for Calculus I (for Microengineering) ; Fall 2023
 
 * Machining Internship (July 2021)
 
