@@ -41,6 +41,13 @@ Master Thesis
 Publications
 ======
 
+O. Z., **Aly Elbindary** et al.
+
+*"Improved Monitoring of Injectable Biomaterial Implants in Rats Using Dixon-TurboRARE MRI at 9.4T"*
+
+ISMRM-ISMRT Annual Meeting and Exhibition, Cape Town, South Africa, May 2026. Accepted abstract.  
+[URL](http://echo.ismrm.org/abstracts/view/da2420c6-2cb6-48e1-b409-65e5e4024fb3)
+
 
 Projects
 ======
