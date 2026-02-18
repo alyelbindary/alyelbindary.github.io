@@ -30,10 +30,10 @@ Work experience
 
 * Machining Internship (July 2021)
 
-Master Thesis -- Grade 6/6
+Master Thesis
 ======
 
-* Incorporation of Computer Vision in Abdominal MRI Scans at the CIBM PCI Lab, EPFL (September 2025 - February 2026)
+* Incorporation of Computer Vision in Abdominal MRI Scans at the CIBM PCI Lab, EPFL -- Grade 6/6 (September 2025 - February 2026)
   * Developed an AI-based segmentation pipeline for Dixon MRI to track volumetric and water–fat changes in subcutaneous rat implants over time
   * Designed quantitative imaging biomarkers for longitudinal assessment in preclinical regenerative medicine studies
   * Implemented and fine-tuned state-of-the-art Vision Transformer architectures for biomedical image analysis
