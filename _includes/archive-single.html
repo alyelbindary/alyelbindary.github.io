@@ -56,14 +56,14 @@
     
     <!-- Before post.citation, u can put "Recommended Citation" -->
     {% if post.collection == 'publications2' %}
-      {% if post.paperurl and post.bibtex %}
+      {% if post.paperurl %}
         <p>
           <a href="{{ post.paperurl }}">View Paper</a> | 
           <a href="javascript:void(0)" onclick="openCitationModal('{{ post.id | replace: '/', '-' }}')">Cite</a>
         </p>
-        {% include citation-modal.html id=post.id bibtex=post.bibtex ris=post.ris endnote=post.endnote %}
-      {% elsif post.paperurl %}
-        <p><a href="{{ post.paperurl }}">View Paper</a></p>
+        {% if post.bibtex %}
+          {% include citation-modal.html id=post.id bibtex=post.bibtex ris=post.ris endnote=post.endnote %}
+        {% endif %}
       {% endif %}
     {% else %}
       {% if post.paperurl and post.slidesurl and post.siteurl %}
