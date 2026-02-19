@@ -19,14 +19,20 @@ author_profile: true
 }
 
 .citation-modal-content {
-  background-color: #fefefe;
+  background-color: #2a2a2a;
   margin: 5% auto;
   padding: 20px;
-  border: 1px solid #888;
+  border: 1px solid #555;
   border-radius: 8px;
   width: 60%;
   max-width: 550px;
   position: relative;
+  color: #e0e0e0;
+}
+
+.citation-modal-content h2 {
+  color: #ffffff;
+  margin-top: 0;
 }
 
 .citation-close {
@@ -40,14 +46,14 @@ author_profile: true
 
 .citation-close:hover,
 .citation-close:focus {
-  color: #000;
+  color: #fff;
 }
 
 .citation-tabs {
   display: flex;
   gap: 10px;
   margin: 20px 0;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 2px solid #555;
 }
 
 .citation-tab-button {
@@ -58,15 +64,17 @@ author_profile: true
   font-size: 16px;
   border-bottom: 3px solid transparent;
   transition: all 0.3s;
+  color: #e0e0e0;
 }
 
 .citation-tab-button:hover {
-  background-color: #f0f0f0;
+  background-color: #3a3a3a;
 }
 
 .citation-tab-button.active {
   border-bottom: 3px solid #007bff;
   font-weight: bold;
+  color: #ffffff;
 }
 
 .citation-format-content {
@@ -74,17 +82,17 @@ author_profile: true
 }
 
 .citation-format-content pre {
-  background-color: #f5f5f5;
+  background-color: #1e1e1e;
   padding: 15px;
   border-radius: 5px;
   overflow-x: auto;
-  border: 1px solid #ddd;
+  border: 1px solid #555;
 }
 
 .citation-format-content code {
   font-family: 'Courier New', monospace;
   font-size: 14px;
-  color: #000;
+  color: #e0e0e0;
 }
 
 .copy-button {
@@ -106,64 +114,6 @@ author_profile: true
   background-color: #28a745;
 }
 </style>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  console.log('DOM loaded, defining citation functions...');
-  
-  window.openCitationModal = function(id) {
-    console.log('Opening modal for:', id);
-    var modal = document.getElementById('citation-modal-' + id);
-    console.log('Modal element:', modal);
-    if (modal) {
-      modal.style.display = 'block';
-    } else {
-      alert('Modal not found: citation-modal-' + id);
-    }
-  };
-
-  window.closeCitationModal = function(id) {
-    document.getElementById('citation-modal-' + id).style.display = 'none';
-  };
-
-  window.showCitationFormat = function(id, format) {
-    var contents = document.querySelectorAll('#citation-modal-' + id + ' .citation-format-content');
-    contents.forEach(function(content) {
-      content.style.display = 'none';
-    });
-    
-    var tabs = document.querySelectorAll('#citation-modal-' + id + ' .citation-tab-button');
-    tabs.forEach(function(tab) {
-      tab.classList.remove('active');
-    });
-    
-    document.getElementById('citation-' + format + '-' + id).style.display = 'block';
-    event.target.classList.add('active');
-  };
-
-  window.copyCitation = function(id, format) {
-    var text = document.querySelector('#citation-' + format + '-' + id + ' code').textContent;
-    navigator.clipboard.writeText(text).then(function() {
-      var button = event.target;
-      var originalText = button.textContent;
-      button.textContent = 'Copied!';
-      button.classList.add('copied');
-      setTimeout(function() {
-        button.textContent = originalText;
-        button.classList.remove('copied');
-      }, 2000);
-    });
-  };
-
-  window.onclick = function(event) {
-    if (event.target.classList.contains('citation-modal')) {
-      event.target.style.display = 'none';
-    }
-  };
-  
-  console.log('Citation functions defined!');
-});
-</script>
 
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
