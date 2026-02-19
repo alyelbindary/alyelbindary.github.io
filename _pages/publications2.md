@@ -24,8 +24,8 @@ author_profile: true
   padding: 20px;
   border: 1px solid #888;
   border-radius: 8px;
-  width: 80%;
-  max-width: 700px;
+  width: 60%;
+  max-width: 550px;
   position: relative;
 }
 
@@ -84,6 +84,7 @@ author_profile: true
 .citation-format-content code {
   font-family: 'Courier New', monospace;
   font-size: 14px;
+  color: #000;
 }
 
 .copy-button {
