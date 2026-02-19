@@ -62,7 +62,10 @@
           <a href="javascript:void(0)" onclick="openCitationModal('{{ post.id | replace: '/', '-' }}')">Cite</a>
         </p>
         {% if post.bibtex %}
-          {% include citation-modal.html id="{{ post.id | replace: '/', '-' }}" bibtex=post.bibtex ris=post.ris endnote=post.endnote %}
+          {% if post.bibtex %}
+          {% assign modal_id = post.id | replace: '/', '-' %}
+          {% include citation-modal.html id=modal_id bibtex=post.bibtex ris=post.ris endnote=post.endnote %}
+        {% endif %}
         {% endif %}
       {% endif %}
     {% else %}
