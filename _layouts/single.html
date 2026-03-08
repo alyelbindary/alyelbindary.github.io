@@ -95,6 +95,8 @@ layout: default
     {% if site.comments.provider and page.comments %}
       {% include comments.html %}
     {% endif %}
+
+  {% include citation-modal-scripts.html %}
   </article>
 
   {% comment %}<!-- only show related on a post page when not disabled -->{% endcomment %}
@@ -111,19 +113,3 @@ layout: default
     </div>
   {% endif %}
 </div>
-
-<script>
-function openCitationModal(id) {
-  var modal = document.getElementById("citation-modal-" + id);
-  if (modal) {
-    modal.style.display = "block";
-  }
-}
-
-function closeCitationModal(id) {
-  var modal = document.getElementById("citation-modal-" + id);
-  if (modal) {
-    modal.style.display = "none";
-  }
-}
-</script>
