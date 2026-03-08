@@ -25,7 +25,7 @@ plugins:
 remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 locale                   : "en-US"
-title                    : "Aly Elbindary's Personal Blog"
+title                    : "Aly Elbindary's Portfolio"
 title_separator          : "-"
 name                     : &name "Aly Elbindary"
 description              : &description "SUIIIIII"
